@@ -1,4 +1,6 @@
-﻿using System;
+﻿using SolidKataConsoleApp.Step1.Models;
+using SolidKataConsoleApp.Step1.Services;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -9,17 +11,14 @@ namespace SolidKataConsoleApp
         static void Main(string[] args)
         {
             User user = new User();
-
             user.Username = "myUserName";
             user.Password = "mySecurePassword";
             user.Email = "myemail@email.me";
             user.Photo = "base64photo";
 
-            user.Register(user);
+            UserService userService = new UserService();
 
-            user.UploadPhoto(user.Photo);
-
-            user.SendEmail(user.Email);
+            userService.Register(user);
         }
     }
 }
