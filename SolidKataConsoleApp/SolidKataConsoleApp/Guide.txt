@@ -1,0 +1,14 @@
+﻿
+
+Step 1 :
+
+Create an application to register users with these fields:
+
+Username
+Password
+Photo
+Email
+
+Users photo is uploaded to cloud
+
+Finally send an email to user

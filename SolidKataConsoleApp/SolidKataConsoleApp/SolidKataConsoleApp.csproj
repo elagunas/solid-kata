@@ -5,12 +5,4 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="LSP\" />
-    <Folder Include="ISP\" />
-    <Folder Include="DIP\" />
-    <Folder Include="OCP\" />
-    <Folder Include="SRP\" />
-  </ItemGroup>
-
 </Project>
